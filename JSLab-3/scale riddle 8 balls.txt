@@ -1,0 +1,50 @@
+let container  = {
+    balls: [
+        {
+            id: 1,
+            weight: 10,
+            marker: '?'
+        },
+        {
+            id: 1,
+            weight: 10,
+            marker: '?'
+        },
+        {
+            id: 1,
+            weight: 10,
+            marker: '?'
+        },
+        {
+            id: 1,
+            weight: 10,
+            marker: '?'
+        },
+        {
+            id: 5,
+            weight: 10,
+            marker: '?'
+        },
+        {
+            id: 6,
+            weight: 10,
+            marker: '?'
+        },
+        {
+            id: 7,
+            weight: 10,
+            marker: '?'
+        },
+        {
+            id: 8,
+            weight: 10,
+            marker: '?'
+        }],
+    mark: () => 'add weight to one ball at random',
+    take: (howManyToTake) => 'array to randomly choosen balls'
+}
+
+let scale = {
+    counter: 0,
+    weight: (set1, set2) => 'result'
+}

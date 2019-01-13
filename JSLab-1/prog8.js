@@ -4,8 +4,7 @@ let sumOfEvens = 0
 let avgOfEvens = 0
 
 for(let i = 0; i < arr1.length; i++){
-    if (i % 2 == 0 && i != 0)
-    {
+    if (i % 2 == 0 && i != 0) {
         sumOfEvens += arr1[i]
         numberOfEvens++
     }

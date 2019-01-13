@@ -1,0 +1,12 @@
+function DetailsOfPayment(type, company, date){
+	this.type = type,
+	this.company = company,
+	this.date = date
+}
+
+function MainEntry(index id, cost, type, company, date){
+	this.index = index,
+	this._id = id,
+	this.cost = cost,
+	this.detailsOfPayment = new DetailsOfPayment(type, company, date)
+}

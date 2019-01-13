@@ -3,8 +3,7 @@ let highestValue
 let indexesWithHighestValue = []
 
 for(let i = 0; i < arr1.length; i++){
-    if (i === 0)
-    {
+    if (i === 0) {
         highestValue = arr1[i];
         continue;
     }
